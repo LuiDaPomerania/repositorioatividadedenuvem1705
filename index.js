@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 app.get('/', (req, res) => {
-res.send('Olá, servidor Node.js com Express funcionando!');
+res.send('Olá, servidor Node.js com Express funcionando! boa noite, atividade sendo feita e codigo rodando corretamente para um site');
 });
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
